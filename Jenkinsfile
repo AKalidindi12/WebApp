@@ -7,7 +7,7 @@ node {
     def buildInfo
 
     stage('Clone sources') {
-        git url: 'https://github.com/AKalidindi12/webapp.git'
+        git url: 'https://github.com/AKalidindi12/WebApp.git'
     }
 
     stage('Artifactory configuration') {
